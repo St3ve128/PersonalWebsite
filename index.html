@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
   </head>
 
   <body>
@@ -13,7 +14,7 @@
       <nav class="navbar">
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="#">Education</a></li>
           <li><a href="#">Baseball</a></li>
           <li><a href="#">Model Aviation</a></li>
@@ -21,11 +22,21 @@
       </nav>
     </header>
 
-    <h3 class="roboto-regular" style="position:relative; top:30vh; color:rgba(80, 80, 230)">Hi There!</h3>
-    <h1 class="roboto-bold" style="position:relative; top:30vh">I Am a <span class="auto-type" style="color:rgba(80, 80, 230)"></span></h1>
+    <h3 class="roboto-regular" style="position:relative; top:30vh; color:rgb(100, 100, 230)">Hi There!</h3>
+    <h1 class="roboto-bold" style="position:relative; top:30vh">I Am a <span class="auto-type" style="color:rgba(100, 100, 230)"></span></h1>
     <p class="roboto-regular" style="position:relative; top:30vh; max-width:80vh">
-      1st year Northern Kentucky University student studying Computer Science. Expected to graduate in December 2027.
+      1st year Northern Kentucky University student studying computer science. Expected to graduate in December 2027.
     </p>
+    
+    <span class="button" style="border:1px solid rgba(100, 100, 230); position:relative; top:31vh; padding:10px">
+      <a href="about.html" class="roboto-regular" style="text-decoration:none">
+        About Me&nbsp;&nbsp;<i class="fa fa-user" aria-hidden="true"></i>
+      </a>
+    </span>
+  
+    <div style="max-width:500px; max-height:500px; overflow:hidden; position:relative; left:52vw; bottom:7vh; border-radius:100px">
+      <img src="img/pic-cropped.jpg" width="606" height="872" style="position:relative; right:1vw; bottom:3vh">
+    </div>
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
@@ -35,7 +46,6 @@
         backSpeed: 50,
         loop: true
       })
-    </script>
-    
+    </script> 
   </body>
 </html>
