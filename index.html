@@ -4,11 +4,11 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Homepage</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
   </head>
 
-  <body style="background-color:black;">
+  <body>
     <header>
       <nav class="navbar">
         <ul>
@@ -21,9 +21,21 @@
       </nav>
     </header>
 
-    <p>This is a paragraph</p>
-    <p style="padding-top:1000px">This is a paragraph</p>
-    <p style="padding-top:1000px">This is a paragraph</p>
+    <h3 class="roboto-regular" style="position:relative; top:30vh; color:rgba(80, 80, 230)">Hi There!</h3>
+    <h1 class="roboto-bold" style="position:relative; top:30vh">I Am a <span class="auto-type" style="color:rgba(80, 80, 230)"></span></h1>
+    <p class="roboto-regular" style="position:relative; top:30vh; max-width:80vh">
+      1st year Northern Kentucky University student studying Computer Science. Expected to graduate in December 2027.
+    </p>
 
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["Student", "Programmer", "Baseball Fanatic", "Model Aviator"], 
+        typeSpeed: 150, 
+        backSpeed: 50,
+        loop: true
+      })
+    </script>
+    
   </body>
 </html>
