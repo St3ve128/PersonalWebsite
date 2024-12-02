@@ -44,8 +44,20 @@ p {
     color: white;
 }
 
+meter::-webkit-meter-optimum-value {
+    background-color: rgba(100, 100, 230);
+}
+
+meter::-webkit-meter-suboptimum-value {
+    background-color: rgba(100, 100, 230);
+}
+
+meter::-webkit-meter-even-less-good-value {
+    background-color: rgba(100, 100, 230);
+}
+
 .navbar {
-    background-color: rgba(25, 25, 25, 0.7);
+    background-color: rgba(50, 50, 50, 0.6);
     padding-top: 5px;
     text-align: center;
     position: fixed; 
