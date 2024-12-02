@@ -6,77 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
   </head>
 
-  <body style="max-height:80vh">
+  <body>
     <header>
-        <nav class="navbar">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html" class="active">About</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">Hobbies</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="#">Hobbies</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
-      <div style="position:relative; top:10vh; left:2vw">
-        <img src="img/pic-cropped.jpg" width="353" height="509" style="border:5px solid rgba(100, 100, 230)">
-      </div>
+    <div style="position:relative; top:10vh; left:2vw; max-width:363px; max-height:519px">
+      <img src="img/pic-cropped.jpg" width="353" height="509" style="border:5px solid rgba(100, 100, 230)">
+    </div>
       
-      <h3 class="roboto-bold" style="position:relative; left:28vw; bottom:49vh; max-width:50vw">My name is Stephen</h3>
-      <p class="roboto-regular" style="position:relative; left:28vw; bottom:49vh; max-width:60vw">
-        I am a student at Northern Kentucky University in my first year of study. My major is computer science and my minor is mathematics. I reside in Cincinnati, Ohio and
-        I currently plan to stay in the general area for the foreseeable future.
-      </p>
+    <h3 class="roboto-bold" style="position:relative; left:28vw; bottom:49vh; max-width:50vw">My name is Stephen</h3>
+    <p class="roboto-regular" style="position:relative; left:28vw; bottom:49vh; max-width:60vw">
+      I am a student at Northern Kentucky University in my first year of study. My major is computer science and my minor is mathematics. I reside in Cincinnati, Ohio and
+      I currently plan to stay in the general area for the foreseeable future.
+    </p>
       
-      <h2 class="roboto-bold" style="position:relative; left:53vw; bottom:45vh; max-width:25vw">
-        <span style="color:rgba(100, 100, 230)">My</span> <span style="border-bottom:2px solid rgba(100, 100, 230)">Skills</span>
-      </h2>
-      <table style="position:relative; left:27.5vw; bottom:43vh">
-        <tr height="50px">
-            <td width="475">
-                <label for="java" class="roboto-regular" style="font-size:14pt; display:flex; justify-content:space-between;">
-                    Java<span class="roboto-regular">90%</span>
-                </label>
-                <meter name="java" id="java" value="90" max="100" style="width:28vw; accent-color:rgba(100, 100, 230)"></meter>
-            </td>
-            <td style="padding-left:50px">
-                <label for="css" class="roboto-regular" style="font-size:14pt; display:flex; justify-content:space-between;">
-                    CSS<span class="roboto-regular">65%</span>
-                </label>
-                <meter name="css" id="css" value="65" max="100" style="width:28vw; accent-color:rgba(100, 100, 230)"></meter>
-            </td>
-        </tr>
-        <tr>
-            <td style="padding-top:20px">
-                <label for="python" class="roboto-regular" style="font-size:14pt; display:flex; justify-content:space-between;">
-                    Python<span class="roboto-regular">75%</span>
-                </label>
-                <meter name="python" id="python" value="75" max="100" style="width:28vw; accent-color:rgba(100, 100, 230)"></meter>
-            </td>
-            <td style="padding-left:50px; padding-top:20px">
-                <label for="javascript" class="roboto-regular" style="font-size:14pt; display:flex; justify-content:space-between">
-                    JavaScript<span class="roboto-regular">60%</span>
-                </label>
-                <meter name="javascript" id="javascript" value="60" max="100" style="width:28vw; accent-color:rgba(100, 100, 230)"></meter>
-            </td>
-        </tr>
-        <tr>
-            <td style="padding-top:20px">
-                <label for="html" class="roboto-regular" style="font-size:14pt; display:flex; justify-content:space-between;">
-                    HTML<span class="roboto-regular">70%</span>
-                </label>
-                <meter name="html" id="html" value="70" max="100" style="width:28vw; accent-color:rgba(100, 100, 230)"></meter>
-            </td>
-            <td style="padding-left:50px; padding-top:20px">
-                <label for="sql" class="roboto-regular" style="font-size:14pt; display:flex; justify-content:space-between;">
-                    SQL<span class="roboto-regular">50%</span>
-                </label>
-                <meter name="sql" id="sql" value="50" max="100" style="width:28vw; accent-color:rgba(100, 100, 230)"></meter>
-            </td>
-        </tr>
-      </table>
+    <h2 class="roboto-bold" style="position:relative; left:53vw; bottom:45vh; max-width:25vw">
+      <span style="color:rgba(100, 100, 230)">My</span> <span style="border-bottom:2px solid rgba(100, 100, 230)">Skills</span>
+    </h2>
+    <table style="position:relative; left:27.5vw; bottom:43vh">
+      <tr height="50px">
+        <td width="475">
+          <label for="java" class="roboto-regular" style="font-size:14pt; display:flex; justify-content:space-between;">
+            Java<span class="roboto-regular">90%</span>
+          </label>
+          <meter name="java" id="java" value="90" max="100" style="width:28vw; accent-color:rgba(100, 100, 230)"></meter>
+        </td>
+        <td style="padding-left:50px">
+          <label for="css" class="roboto-regular" style="font-size:14pt; display:flex; justify-content:space-between;">
+            CSS<span class="roboto-regular">65%</span>
+          </label>
+          <meter name="css" id="css" value="65" max="100" style="width:28vw; accent-color:rgba(100, 100, 230)"></meter>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding-top:20px">
+          <label for="python" class="roboto-regular" style="font-size:14pt; display:flex; justify-content:space-between;">
+            Python<span class="roboto-regular">75%</span>
+          </label>
+          <meter name="python" id="python" value="75" max="100" style="width:28vw; accent-color:rgba(100, 100, 230)"></meter>
+        </td>
+        <td style="padding-left:50px; padding-top:20px">
+          <label for="javascript" class="roboto-regular" style="font-size:14pt; display:flex; justify-content:space-between">
+            JavaScript<span class="roboto-regular">60%</span>
+          </label>
+          <meter name="javascript" id="javascript" value="60" max="100" style="width:28vw; accent-color:rgba(100, 100, 230)"></meter>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding-top:20px">
+          <label for="html" class="roboto-regular" style="font-size:14pt; display:flex; justify-content:space-between;">
+            HTML<span class="roboto-regular">70%</span>
+          </label>
+          <meter name="html" id="html" value="70" max="100" style="width:28vw; accent-color:rgba(100, 100, 230)"></meter>
+        </td>
+        <td style="padding-left:50px; padding-top:20px">
+          <label for="sql" class="roboto-regular" style="font-size:14pt; display:flex; justify-content:space-between;">
+            SQL<span class="roboto-regular">50%</span>
+          </label>
+          <meter name="sql" id="sql" value="50" max="100" style="width:28vw; accent-color:rgba(100, 100, 230)"></meter>
+        </td>
+      </tr>
+    </table>
+
+    <span class="button" style="border:1px solid rgba(100, 100, 230); padding:10px; position:relative; bottom:36.5vh; left:53vw">
+      <a href="education.html" class="roboto-regular" style="text-decoration:none">
+        My Education&nbsp;&nbsp;<i class="fas fa-graduation-cap"></i>
+      </a>
+    </span>
   </body>
 </html>

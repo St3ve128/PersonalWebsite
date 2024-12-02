@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: white;
     padding: 50px;
+    overflow: hidden;
 }
 
 h1 {
@@ -30,10 +31,12 @@ h6 {
 
 p {
     line-height: 150%;
+    font-size: 14pt;
 }
 
 .button a {
     color: rgba(100, 100, 230);
+    font-size: 14pt;
 }
 
 .button:hover {
