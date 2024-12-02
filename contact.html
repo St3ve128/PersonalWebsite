@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+
+    <h1 class="roboto-bold" style="text-align:center">
+        <span style="border-bottom:2px solid rgba(100, 100, 230)">Contact</span> 
+        <span style="color:rgba(100, 100, 230)">Me</span>
+    </h1><br>
+    <h2 class="roboto-bold">Get In Touch</h2>
+    <ul style="list-style-type:none" class="roboto-regular">
+      <li>
+        <label class="roboto-bold" for="phone">Phone:</label><br><br>
+        <span style="color:rgba(100, 100, 230)"><i class="fas fa-phone"></i></span> &nbsp; <span id="phone"> +1 (513) 377-4544</span>
+      </li>
+      <li style="padding-top:50px">
+        <label class="roboto-bold" for="email">Email:</label><br><br>
+        <span style="color:rgba(100, 100, 230)">
+            <i class="fas fa-envelope"></i>
+        </span> &nbsp; 
+        <span id="email">
+            kroegers1@mymail.nku.edu<br><br>
+            <span style="color:rgba(100, 100, 230)">
+              <i class="fas fa-envelope"></i>
+            </span> &nbsp;
+            <span>stephkroe2@gmail.com</span>
+        </span>
+      </li>
+      <li style="padding-top:50px">
+        <label class="roboto-bold" for="handshake">Handshake:</label><br><br>
+        <span style="color:rgba(100, 100, 230)"><i class="fas fa-h-square"></i></span> &nbsp; <span id="handshake"> https://nku.joinhandshake.com/profiles/61898196</span>
+      </li>
+      <li style="padding-top:50px">
+        <label class="roboto-bold" for="github">Github:</label><br><br>
+        <span style="color:rgba(100, 100, 230)"><i class="fab fa-github"></i></span> &nbsp; <span id="github">https://github.com/St3ve128</span>
+      </li>
+    </ul>
+
+    <form name="contact-me" method="post" style="position:relative; bottom:52vh; left:45vw">
+      <input class="box" type="text" id="name" placeholder="name" required>
+      <input class="box" type="email" id="email" placeholder="email" required>
+      <input class="box" type="text" id="subject" placeholder="subject" required>
+      <textarea placeholder="message" style="background-color:rgba(50, 50, 50, 0.8); width:40.2vw; height:15vh"></textarea><br><br>
+      <button type="submit">
+        Send Message
+      </button>
+    </form>
+  </body>
+</html>
