@@ -4,4 +4,4 @@ This site serves as a showcase for myself, talking about my hobbies and interest
 The hobbies that I will talk about will include baseball, cars/motorsport, and model aviation. home.html is where you should start, and from there how to use the site 
 should be self-explanatory.
 
-Layout inspiration: https://www.templatemonster.com/landing-page-template/elora-free-personal-portfolio-html5-landing-page-template-243954.html
+Open this project in GitHub Pages: https://st3ve128.github.io/PersonalWebsite/
